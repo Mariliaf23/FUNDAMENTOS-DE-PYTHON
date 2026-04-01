@@ -12,7 +12,7 @@ while contador < 5:
 print('Saiu do laço de repetição')'''    
 
 
-
+'''''
 secret_number = 777
 
 print(
@@ -26,8 +26,8 @@ print(
 | Então, qual é o número secreto?|
 +================================+
 """)
-
-# Primeiro input fora do loop
+'''
+'''# Primeiro input fora do loop
 guess = int(input("Digite o número: ")) #Converte o que o usuário digita em um número inteiro para que possamos compará-lo com 777
 
 
@@ -43,4 +43,15 @@ while guess != secret_number:#Este laço continuará repetindo enquanto o palpit
 
 # Só executa estas linhas quando o usuário digita 777
 print(guess)
-print("Muito bem, trouxa! Você está livre agora.")
+print("Muito bem, trouxa! Você está livre agora.")'''
+
+
+'''''
+for contador in range(0,4, 5):  
+    print("o valor do contador é atualmente", contador)'''
+
+
+
+
+for contador in range(4,0, -1):   #padrão da programação é que contador seja "i"
+    print("o valor do contador é atualmente", contador)
